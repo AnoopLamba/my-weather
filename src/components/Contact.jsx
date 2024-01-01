@@ -89,7 +89,7 @@ const Contact = () => {
             />
             <button
               type="submit"
-              className="max-w-[130px] p-[4px_8px] sm:p-[8px_12px] rounded-lg sm:rounded-xl bg-[linear-gradient(108deg,#3A5E72_4.95%,_#5C93B1_132.43%)] transition-all duration-300 ease-in-out flex items-center justify-center gap-1 sm:gap-2 text-white"
+              className="max-w-[130px] p-[6px_10px] sm:p-[8px_12px] rounded-lg sm:rounded-xl bg-[linear-gradient(108deg,#3A5E72_4.95%,_#5C93B1_132.43%)] transition-all duration-300 ease-in-out flex items-center justify-center gap-1 sm:gap-2 text-white"
             >
               <span className="font-poppins text-lg font-medium">Submit</span>
               <ArrowRightIcon />

@@ -22,7 +22,7 @@ const Navbar = () => {
 
       {/* Say hello button */}
       {!isContactPage && (
-        <button className="max-w-[170px] p-[4px_8px] sm:p-[8px_12px] rounded-xl bg-[linear-gradient(108deg,#3A5E72_4.95%,_#5C93B1_132.43%)]">
+        <button className="max-w-[170px] p-[6px_10px] sm:p-[8px_12px] rounded-xl bg-[linear-gradient(108deg,#3A5E72_4.95%,_#5C93B1_132.43%)]">
           <Link
             to="/contact"
             className="text-white font-poppins text-base sm:text-lg font-medium"
@@ -36,7 +36,7 @@ const Navbar = () => {
       {isContactPage && (
         <button
           onClick={navigateBack}
-          className="max-w-[170px] p-[4px_8px] sm:p-[8px_12px] rounded-xl bg-[linear-gradient(108deg,#3A5E72_4.95%,_#5C93B1_132.43%)] transition-all duration-300 ease-in-out flex items-center justify-center gap-1 sm:gap-2 text-white"
+          className="max-w-[170px] p-[6px_10px] sm:p-[8px_12px] rounded-xl bg-[linear-gradient(108deg,#3A5E72_4.95%,_#5C93B1_132.43%)] transition-all duration-300 ease-in-out flex items-center justify-center gap-1 sm:gap-2 text-white"
         >
           <ArrowLeftIcon />
           <span className="font-poppins text-base sm:text-lg font-medium">
